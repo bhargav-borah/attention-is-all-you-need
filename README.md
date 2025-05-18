@@ -90,7 +90,6 @@ model.load_state_dict(torch.load('path/to/saved/model'))
 
 # Translate a sentence
 src_text = "Hello, how are you?"
-# Note: Translation method not provided in original code; placeholder for user implementation
 # translated = model.translate(src_text, tokenizer)
 # print(translated)
 ```
